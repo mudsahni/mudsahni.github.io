@@ -1,0 +1,1 @@
+export const COLOR_CONSTANTS = ["primary", "secondary", "error", "success"]

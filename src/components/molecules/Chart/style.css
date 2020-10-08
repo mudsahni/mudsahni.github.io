@@ -1,0 +1,9 @@
+.chart-area {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+    padding: 1.5rem;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+}
