@@ -1,0 +1,7 @@
+.logo {
+    font-weight: 200;
+    font-size: 4rem;
+    color: var(--header-color);
+    letter-spacing: -0.33rem;
+    word-spacing: -0.5rem;
+}

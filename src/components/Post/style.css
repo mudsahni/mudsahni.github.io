@@ -1,0 +1,38 @@
+.post {
+    display: flex;
+    flex-direction: column;
+}
+
+.post>.title-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.post>.title-section>span {
+    margin-bottom: -10px;
+}
+
+.post>.title-section>span:first-child {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.post>.title-section>span:last-child {
+    color: var(--header-color);
+    font-weight: 300;
+    font-size: 2.3rem;
+}
+
+.post-section {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.post-section {
+    color: var(--text-color);
+}
+
+.post-titles {
+    font-size: 1.3rem;
+}
