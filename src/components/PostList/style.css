@@ -1,0 +1,21 @@
+.post-list-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.post-list-section>div {
+    color: var(--header-black);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.post-list {
+    margin-bottom: 64px;
+}
+
+.placeholder-section {
+    margin-top: 32px;
+    margin-left: 24px;
+}

@@ -1,0 +1,96 @@
+.post-preview-container {
+    height: 200px;
+    width: 600px;
+    padding: 12px 24px 0px 24px;
+    /* display: flex;
+    flex-direction: column; */
+    /* border-bottom: 1px solid var(--divider-grey); */
+}
+
+.post-preview-container:after {
+    content: "";
+    /* This is necessary for the pseudo element to work. */
+    display: block;
+    /* This will put the pseudo element on its own line. */
+    margin: 0 auto;
+    /* This will center the border. */
+    width: 80%;
+    /* Change this to whatever width you want. */
+    /* padding-top: 20px; */
+    /* This creates some space between the element and the border. */
+    border-bottom: 1px solid var(--divider-grey);
+    /* This creates the border. Replace black with whatever color you want. */
+
+}
+
+.post-preview-container:last-child:after {
+    content: none;
+    border-bottom: none;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .post-preview-container {
+        height: 250px;
+        width: 99%;
+    }
+
+
+}
+
+.post-preview-container:hover {
+    background-color: var(--box-white);
+
+}
+
+
+.post-preview-container .post-preview-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.post-preview-title {
+    color: var(--header-black);
+    font-size: 1.3rem;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    margin-bottom: 12px;
+}
+
+.post-preview-description {
+    color: var(--header-text-black);
+    font-size: 1rem;
+    letter-spacing: 0.03rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+.post-preview-tags {
+    color: var(--label-grey);
+    font-size: 0.9rem;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.post-preview-tags>div>span:last-child {
+    margin-left: auto;
+    float: right;
+}
+
+.post-preview-tags>div>span {
+    margin-right: 12px;
+
+}
+
+.post-preview-tags>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

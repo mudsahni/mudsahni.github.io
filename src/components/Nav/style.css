@@ -1,0 +1,30 @@
+.nav-bar {
+    border-bottom: 1px solid var(--divider-grey);
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-logo {
+    font-weight: 300;
+    font-size: 2.4rem;
+    letter-spacing: 0.08rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.nav-logo>img {
+    margin-right: 12px;
+}
+
+.nav-logo>span>a {
+    color: var(--title-grey);
+}
+
+.nav-logo>span>a:hover {
+    color: var(--header-black);
+
+}

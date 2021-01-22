@@ -1,6 +1,26 @@
 :root {
-    --header-color: #5a5a5a;
-    --divider-color: rgba(34, 36, 38, .15);
+    --header-color: #929292;
+    /* --divider-color: rgba(34, 36, 38, .15); */
     --text-color: #707070;
+    --nav-background: #fdfdfd;
+
+    --header-text-color: #f0ece2;
+    --heading-color: #ececec;
+    --header-text-bold-color: #525252;
+    --header-background-color: #2a2438;
+    --header-image-background-color: #414141;
+    --background-color: #414141;
+
+
+    --background-white: #fff;
+    --box-white: rgb(248, 248, 248);
+    --button-pink: rgb(253, 103, 82);
+    --divider-grey: rgb(229, 229, 229);
+    --header-black: rgb(26, 26, 26);
+    --header-text-black: rgb(27, 17, 11);
+    --title-grey: rgb(88, 80, 75);
+    --label-grey: rgb(87, 88, 91);
+    --button-blue: rgb(103, 189, 252);
+    --metadata-grey: rgb(118, 118, 118);
 
 }

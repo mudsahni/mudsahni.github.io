@@ -1,8 +1,7 @@
 import * as React from 'react'
-import { Container } from '../../components/Container';
-import { Divider } from '../../components/Divider';
-import { Nav } from '../../components/Nav';
-import { Post } from '../../components/Post';
+import { Footer } from '../../components/Footer';
+import { Header } from '../../components/Header';
+import { PostList } from '../../components/PostList';
 import './style.css'
 
 interface HomeProps {
@@ -12,9 +11,9 @@ interface HomeProps {
 export const Home: React.FC<HomeProps> = ({ }) => {
     return (
         <React.Fragment>
-            <Nav text="mudit sahni" />
-            <Divider />
-            <Post />
+            <Header />
+            <PostList />
+            {/* <Post title={theresSomeoneInMyHead.title} date={theresSomeoneInMyHead.date}>{theresSomeoneInMyHead.content}</Post> */}
         </React.Fragment>
     );
 

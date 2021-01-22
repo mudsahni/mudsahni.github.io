@@ -1,0 +1,9 @@
+.breadcrumbs {
+    margin-bottom: 32px;
+    color: var(--title-grey);
+    letter-spacing: 0.01rem;
+}
+
+.ui.breadcrumb>.active.section {
+    font-weight: 400;
+}

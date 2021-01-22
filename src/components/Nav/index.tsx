@@ -1,16 +1,18 @@
 import * as React from 'react'
-import { Container } from '../Container';
-import { Logo } from '../Logo';
+import { Link } from 'react-router-dom';
+import { Container, Image } from 'semantic-ui-react';
 import './style.css'
-
+import TRex from '../../iguanodon-dinosaur-shape.svg'
 interface NavProps {
-    text: string;
+
 }
 
-export const Nav: React.FC<NavProps> = ({ text }) => {
+export const Nav: React.FC<NavProps> = ({ }) => {
     return (
-        <Container>
-            <Logo>{text}</Logo>
-        </Container>
+        <div className="nav-bar">
+            <Container className="top-padded-container">
+                <div className="nav-logo"><Image src={TRex} width={50} /><span><Link to="/">mudit sahni</Link></span></div>
+            </Container>
+        </div>
     );
 }
